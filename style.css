@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(red,purple);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.saudacao{ 
+    width: 220px;
+    height: 140px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: drop-shadow(7px 4px 9px rgb(255, 3, 87));
+    font-size: 35px;
+    
+}
+
+.saudacao div{
+    background: rgb(240, 13, 62);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.central{
+    width: 350px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    filter: drop-shadow(9px 4px 11px rgb(23, 24, 53));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.central div{
+    background: rgb(240, 13, 62);
+    color: white;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.central div span{
+    font-size: 85px;
+}
+
+.central div p{
+    font-size: 17px;
+    margin: 0;
+}
+
